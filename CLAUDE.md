@@ -10,6 +10,18 @@ Victor Fernandes' professional portfolio site hosted at `victorffernandes.github
 
 > **Node requirement:** The dependencies require Node ≥ 20. Always run scripts with `nvm use v22.22.2` before `npm run dev / build / check`.
 
+## Deployment
+
+The site deploys automatically to `https://victorffernandes.github.io` via GitHub Actions on every push to `main`.
+
+**Workflow:** [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
+- Runs on Node 22, installs deps with `npm ci`, builds with `npm run build`
+- Uploads `build/` as a Pages artifact and deploys via `actions/deploy-pages`
+
+The static adapter is configured with `fallback: '404.html'` in `svelte.config.js` so GitHub Pages serves the SvelteKit error page (`src/routes/+error.svelte`) for any unknown URL instead of a raw GitHub 404.
+
+> Do not change `fallback` back to `undefined` — this breaks direct URL navigation and page refreshes on non-root routes.
+
 ## Commands
 
 ```bash

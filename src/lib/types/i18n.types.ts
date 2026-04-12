@@ -18,4 +18,9 @@ export interface Translations {
 		blog: { title: string };
 		support: { title: string };
 	};
+	error: {
+		title: string;
+		message: string;
+		back: string;
+	};
 }

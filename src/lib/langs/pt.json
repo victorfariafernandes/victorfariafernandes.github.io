@@ -15,5 +15,10 @@
     "projects": { "title": "Projetos" },
     "blog": { "title": "Blog" },
     "support": { "title": "Suporte" }
+  },
+  "error": {
+    "title": "Página não encontrada",
+    "message": "A página que você está procurando não existe.",
+    "back": "Voltar ao início"
   }
 }
