@@ -1,4 +1,5 @@
 import { writable, derived } from 'svelte/store';
+import { invalidateAll } from '$app/navigation';
 import type { Locale, Translations } from '$lib/types';
 import en from '$lib/langs/en.json';
 import pt from '$lib/langs/pt.json';
@@ -17,7 +18,8 @@ export function initLocale(): void {
 	if (stored && stored in localeMap) locale.set(stored);
 }
 
-export function setLocale(next: Locale): void {
+export async function setLocale(next: Locale): Promise<void> {
 	locale.set(next);
 	localStorage.setItem(LOCALE_KEY, next);
+	await invalidateAll();
 }
