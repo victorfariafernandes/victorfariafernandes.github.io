@@ -4,6 +4,10 @@
     {
       "type": "post",
       "path": "/blog/post/:uid"
+    },
+    {
+      "type": "project",
+      "path": "/project/:uid"
     }
   ]
 }

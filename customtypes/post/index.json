@@ -31,6 +31,21 @@
           "placeholder": "#any"
         }
       },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "preview_image": {
+        "type": "Image",
+        "config": {
+          "label": "preview-image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

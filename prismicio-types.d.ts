@@ -86,6 +86,28 @@ interface PostDocumentData {
 	tags: prismic.KeyTextField;
 	
 	/**
+	 * Description field in *Post*
+	 *
+	 * - **Field Type**: Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: post.description
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/fields/text
+	 */
+	description: prismic.KeyTextField;
+	
+	/**
+	 * preview-image field in *Post*
+	 *
+	 * - **Field Type**: Image
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: post.preview_image
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/fields/image
+	 */
+	preview_image: prismic.ImageField<never>;
+	
+	/**
 	 * Slice Zone field in *Post*
 	 *
 	 * - **Field Type**: Slice Zone

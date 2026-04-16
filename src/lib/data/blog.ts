@@ -1,20 +1,32 @@
 import { createClient } from '$lib/prismicio';
 import type { BlogPost } from '$lib/types';
 
+const mapPost = (doc: Awaited<ReturnType<ReturnType<typeof createClient>['getByUID']>>): BlogPost => ({
+	uid: doc.uid ?? '',
+	title: doc.data.title as string,
+	description: doc.data.description as string,
+	imageUrl: (doc.data.preview_image as { url?: string })?.url,
+	tags: ((doc.data.tags as string) ?? '')
+		.split(',')
+		.map((t) => t.trim())
+		.filter((t): t is string => t.length > 0),
+	slices: doc.data.slices as unknown[],
+});
+
 export const getPost = async (uid: string): Promise<BlogPost> => {
 	const client = createClient();
 	const doc = await client.getByUID('post', uid);
+	return mapPost(doc);
+};
 
-	return {
-		uid: doc.uid,
-		title: doc.data.title as string,
-		tags: doc.data.tags as string,
-		slices: doc.data.slices as unknown[],
-	};
+export const getAllPosts = async (): Promise<BlogPost[]> => {
+	const client = createClient();
+	const docs = await client.getAllByType('post');
+	return docs.map(mapPost);
 };
 
 export const getPostUids = async (): Promise<string[]> => {
 	const client = createClient();
 	const posts = await client.getAllByType('post');
-	return posts.map((post) => post.uid);
+	return posts.map((post) => post.uid ?? '').filter((uid) => uid.length > 0);
 };
