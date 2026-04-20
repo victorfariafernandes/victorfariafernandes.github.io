@@ -14,5 +14,8 @@
 	<div class="min-h-screen bg-secondary-950">
 		<NavBar />
 		{@render children()}
+		<footer class="border-t border-secondary-900 px-container py-6 text-center text-sm text-secondary-500">
+			<p>&copy; {new Date().getFullYear()} Victor Fernandes. All rights reserved.</p>
+		</footer>
 	</div>
 </ThemeProvider>

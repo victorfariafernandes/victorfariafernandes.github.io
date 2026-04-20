@@ -1,7 +1,13 @@
 {
+  "seo": {
+    "siteName": "Victor Fernandes",
+    "defaultDescription": "Portfólio de engenharia de software de Victor Fernandes, com perfil profissional e artigos técnicos.",
+    "aboutDescription": "Conheça Victor Fernandes, desenvolvedor de software sênior com foco em engenharia full stack, infraestrutura em nuvem e sistemas escaláveis.",
+    "blogDescription": "Leia artigos técnicos e insights de engenharia escritos por Victor Fernandes.",
+    "errorDescription": "A página solicitada não foi encontrada no site de Victor Fernandes."
+  },
   "nav": {
     "about": "Sobre Mim",
-    "projects": "Projetos",
     "experience": "Experiência",
     "education": "Educação",
     "blog": "Blog",
@@ -16,9 +22,7 @@
       "title": "Sobre Mim",
       "content": "Desenvolvimento de interfaces dinâmicas com React, gerenciamento de bancos de dados com PostgreSQL e otimização de APIs com Express.\n\nAutomação de pipelines CI/CD com Github Actions e uso de Docker, Kubernetes e Terraform para orquestração de containers e infraestrutura como código. Integração de sistemas com ferramentas de mensageria como Kafka, SQS e SNS, garantindo alta disponibilidade e performance. Atuação na resolução de bugs críticos e na melhoria contínua de segurança e desempenho. Mentoria de equipes, promovendo boas práticas e revisões de código. Colaboração com times multidisciplinares para definir estratégias de produto e arquitetura técnica."
     },
-    "projects": { "title": "Projetos" },
     "blog": { "title": "Blog" },
-    "support": { "title": "Doação" },
     "experience": {
       "title": "Experiência",
       "items": [

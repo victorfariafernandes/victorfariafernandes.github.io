@@ -6,7 +6,6 @@
 
 	const navLinks = $derived([
 		{ label: $t.nav.about, href: '/' },
-		// { label: $t.nav.projects, href: '/projects' },
 		{ label: $t.nav.experience, href: '/#experience' },
 		{ label: $t.nav.education, href: '/#education' },
 	]);

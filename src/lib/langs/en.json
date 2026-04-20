@@ -1,7 +1,13 @@
 {
+  "seo": {
+    "siteName": "Victor Fernandes",
+    "defaultDescription": "Victor Fernandes' software engineering portfolio, profile, and blog posts.",
+    "aboutDescription": "Learn more about Victor Fernandes, a senior software developer focused on full-stack engineering, cloud infrastructure, and scalable systems.",
+    "blogDescription": "Read technical articles and engineering insights by Victor Fernandes.",
+    "errorDescription": "The requested page could not be found on Victor Fernandes' website."
+  },
   "nav": {
     "about": "About Me",
-    "projects": "Projects",
     "experience": "Experience",
     "education": "Education",
     "blog": "Blog",
@@ -16,9 +22,7 @@
       "title": "About Me",
       "content": "Dynamic interface development with React, database management with PostgreSQL, and API optimization with Express.\n\nCI/CD pipeline automation with GitHub Actions and Docker, Kubernetes, and Terraform for container orchestration and infrastructure as code. Systems integration with messaging tools like Kafka, SQS, and SNS, ensuring high availability and performance. Bug resolution, continuous security improvements, team mentorship, code reviews, and collaboration with multidisciplinary teams to define product and architecture strategies."
     },
-    "projects": { "title": "Projects" },
     "blog": { "title": "Blog" },
-    "support": { "title": "Donate" },
     "experience": {
       "title": "Experience",
       "items": [

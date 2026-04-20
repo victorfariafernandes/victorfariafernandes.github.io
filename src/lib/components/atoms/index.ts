@@ -5,3 +5,4 @@ export { default as AppSpinner } from './AppSpinner.svelte';
 export { default as SectionHeading } from './SectionHeading.svelte';
 export { default as ContactButton } from './ContactButton.svelte';
 export { default as SocialBadge } from './SocialBadge.svelte';
+export { default as SeoHead } from './SeoHead.svelte';

@@ -1,8 +1,16 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { SectionHeading, AppButton } from '$lib/components/atoms';
+	import { SectionHeading, AppButton, SeoHead } from '$lib/components/atoms';
+	import { SITE_URL } from '$lib/config/site';
 	import { t } from '$lib/stores/locale.store';
 </script>
+<SeoHead
+	title={$t.error.title}
+	description={$t.seo.errorDescription}
+	canonicalUrl={`${SITE_URL}/404`}
+	siteName={$t.seo.siteName}
+	noIndex={true}
+/>
 
 <main class="mx-auto flex max-w-7xl flex-col items-center px-container py-section text-center">
 	<p class="mb-2 text-6xl font-bold text-primary-600">{$page.status}</p>
