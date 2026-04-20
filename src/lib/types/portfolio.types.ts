@@ -9,6 +9,20 @@ export interface Project {
 	featured: boolean;
 }
 
+export interface TimelineItem {
+	id: string;
+	date: string;
+	title: string;
+	subtitle: string;
+	content?: string;
+}
+
+export interface ExperienceItem extends TimelineItem {
+	content: string;
+}
+
+export interface EducationItem extends TimelineItem {}
+
 export interface BlogPost {
 	uid: string;
 	title: string;

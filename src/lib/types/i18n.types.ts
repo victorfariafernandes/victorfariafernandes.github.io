@@ -1,22 +1,22 @@
+import type { ExperienceItem, EducationItem } from './portfolio.types';
+
 export type Locale = 'en' | 'pt';
 
 export interface Translations {
-	meta: {
-		name: string;
-		flag: string;
-	};
 	nav: {
 		about: string;
 		projects: string;
 		blog: string;
-		support: string;
+		contact: string;
 		toggleMenu: string;
 	};
 	pages: {
-		about: { title: string };
+		about: { name: string; subtitle: string; role: string; title: string; content: string };
 		projects: { title: string };
 		blog: { title: string };
 		support: { title: string };
+		experience: { title: string; items: ExperienceItem[] };
+		education: { title: string; items: EducationItem[] };
 	};
 	error: {
 		title: string;

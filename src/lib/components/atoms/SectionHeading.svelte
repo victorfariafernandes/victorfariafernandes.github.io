@@ -9,6 +9,6 @@
 	let { class: className = '', children }: Props = $props();
 </script>
 
-<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-black {className}">
+<h2 class="text-3xl font-bold tracking-tight {className}">
 	{@render children?.()}
 </h2>

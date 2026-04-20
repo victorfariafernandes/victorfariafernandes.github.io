@@ -1,64 +1,68 @@
 <script lang="ts">
-	import logo from '$lib/assets/apple-touch-icon.png';
+	import { page } from '$app/state';
 	import { t } from '$lib/stores/locale.store';
 	import { LocaleSwitcher } from '$lib/components/molecules';
+	import { ContactButton } from '$lib/components/atoms';
 
 	const navLinks = $derived([
 		{ label: $t.nav.about, href: '/' },
 		{ label: $t.nav.projects, href: '/projects' },
-		{ label: $t.nav.blog, href: '/blog' },
-		{ label: $t.nav.support, href: '/support' }
+		{ label: $t.nav.blog, href: '/blog' }
 	]);
 
 	let menuOpen = $state(false);
+
+	function isActive(href: string): boolean {
+		return page.url.pathname === href;
+	}
 </script>
 
-<nav class="bg-primary-900 text-white shadow-md">
+<nav class="bg-secondary-950 border-b border-secondary-900">
 	<div class="mx-auto flex max-w-7xl items-center justify-between px-container py-3">
-		<!-- Logo + Name -->
-		<a href="/" class="flex items-center gap-3 font-semibold text-white hover:text-primary-200">
-			<img src={logo} alt="Victor Fernandes logo" class="h-9 w-9 rounded-full" />
-			<span class="text-lg tracking-tight">Victor Fernandes</span>
-		</a>
+		<LocaleSwitcher class="hidden md:flex" />
 
-		<!-- Desktop links + locale switcher -->
+		<!-- Desktop links + contact button -->
 		<div class="hidden items-center gap-8 md:flex">
 			<ul class="flex items-center gap-8">
 				{#each navLinks as link}
 					<li>
 						<a
 							href={link.href}
-							class="text-sm font-medium text-primary-100 transition-colors hover:text-white"
+							class="text-sm font-medium transition-colors {isActive(link.href)
+								? 'text-secondary-300'
+								: 'text-secondary-600 hover:text-primary-500'}"
 						>
 							{link.label}
 						</a>
 					</li>
 				{/each}
 			</ul>
-			<LocaleSwitcher />
+			<ContactButton />
 		</div>
 
 		<!-- Mobile hamburger -->
 		<button
-			class="flex flex-col gap-1.5 p-2 md:hidden"
+			class="ml-auto flex flex-col gap-1.5 p-2 md:hidden"
 			onclick={() => (menuOpen = !menuOpen)}
 			aria-label={$t.nav.toggleMenu}
 		>
-			<span class="block h-0.5 w-6 bg-white transition-all" class:rotate-45={menuOpen} class:translate-y-2={menuOpen}></span>
-			<span class="block h-0.5 w-6 bg-white transition-all" class:opacity-0={menuOpen}></span>
-			<span class="block h-0.5 w-6 bg-white transition-all" class:-rotate-45={menuOpen} class:-translate-y-2={menuOpen}></span>
+			<span class="block h-0.5 w-6 bg-secondary-200 transition-all" class:rotate-45={menuOpen} class:translate-y-2={menuOpen}></span>
+			<span class="block h-0.5 w-6 bg-secondary-200 transition-all" class:opacity-0={menuOpen}></span>
+			<span class="block h-0.5 w-6 bg-secondary-200 transition-all" class:-rotate-45={menuOpen} class:-translate-y-2={menuOpen}></span>
 		</button>
 	</div>
 
 	<!-- Mobile menu -->
 	{#if menuOpen}
-		<div class="border-t border-primary-800 bg-primary-900 px-container pb-4 pt-2 md:hidden">
+		<div class="border-t border-secondary-900 bg-secondary-950 px-container pb-4 pt-2 md:hidden">
 			<ul class="mb-3">
 				{#each navLinks as link}
 					<li>
 						<a
 							href={link.href}
-							class="block py-2 text-sm font-medium text-primary-100 hover:text-white"
+							class="block py-2 text-sm font-medium transition-colors {isActive(link.href)
+								? 'text-secondary-300'
+								: 'text-secondary-600 hover:text-primary-500'}"
 							onclick={() => (menuOpen = false)}
 						>
 							{link.label}
@@ -66,7 +70,10 @@
 					</li>
 				{/each}
 			</ul>
-			<LocaleSwitcher />
+			<div class="flex items-center justify-between">
+				<LocaleSwitcher />
+				<ContactButton />
+			</div>
 		</div>
 	{/if}
 </nav>

@@ -11,6 +11,8 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <ThemeProvider theme={flowbiteTheme}>
-	<NavBar />
-	{@render children()}
+	<div class="min-h-screen bg-secondary-950">
+		<NavBar />
+		{@render children()}
+	</div>
 </ThemeProvider>
