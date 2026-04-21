@@ -28,28 +28,28 @@
       "items": [
         {
           "id": "enso-connect",
-          "date": "out. 2025",
+          "date": "Out. 2025",
           "title": "Desenvolvedor Full Stack",
           "subtitle": "Enso Connect",
           "content": "Atuando como engenheiro de software desenvolvendo novas funcionalidades do zero e mantendo sistemas em produção. Focado em experiência do usuário, eficiência e qualidade de código, utilizando React, Python e AWS para alcançar resultados confiáveis e eficientes. Utilizou tecnologias como DynamoDB, Cognito e Amplify para manter e escalar produtos de startup."
         },
         {
           "id": "senior-dev",
-          "date": "set. 2025",
+          "date": "Jan. 2022",
           "title": "Desenvolvedor Full Stack Sênior",
           "subtitle": "OLX Brasil",
           "content": "Liderança técnica no desenvolvimento de sistemas distribuídos com Node.js, Golang e Python, utilizando React para interfaces e PostgreSQL para gestão de dados. Implementação de pipelines CI/CD com Github Actions, automação de infraestrutura com Terraform e Kubernetes, e integração assíncrona com Kafka, SQS e SNS. Mentoria e resolução de desafios arquiteturais e de performance."
         },
         {
           "id": "mid-dev",
-          "date": "ago.2019",
+          "date": "Ago.2019",
           "title": "Desenvolvedor Full Stack Pleno",
           "subtitle": "Rede D'or São Luiz",
           "content": "Responsável pelo desenvolvimento de sistemas com Node.js e front-end com Angular e React. Integração com MongoDB e Redis para soluções de armazenamento e cache, usando Docker e Express para otimização do ambiente. Contribuição em revisões de código e implementação de testes automatizados."
         },
         {
           "id": "junior-dev",
-          "date": "nov.2017",
+          "date": "Nov.2017",
           "title": "Desenvolvedor Full Stack Junior",
           "subtitle": "OI S.A",
           "content": "Desenvolvimento de aplicações com Node.js e React, integrando MongoDB e Redis para otimização de dados. Implementação de APIs utilizando Express e configuração de ambientes com Docker. Participação na resolução de bugs e suporte ao deploy contínuo."

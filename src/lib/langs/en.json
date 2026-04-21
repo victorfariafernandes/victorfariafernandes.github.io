@@ -28,14 +28,14 @@
       "items": [
         {
           "id": "enso-connect",
-          "date": "oct.2025",
+          "date": "Oct.2025",
           "title": "Full Stack Developer",
           "subtitle": "Enso Connect · Full-time",
           "content": "Working as a software engineer developing new features from scratch and maintaining production systems. Focused on user experience, efficiency, and code quality, using React, Python, and AWS to achieve reliable and efficient results. Leveraged technologies like DynamoDB, Cognito, and Amplify to maintain and scale startup products."
         },
         {
           "id": "senior-dev",
-          "date": "Sep. 2025",
+          "date": "Jan. 2022",
           "title": "Senior Full Stack Developer",
           "subtitle": "OLX Brasil",
           "content": "Technical leadership in distributed systems development with Node.js, Golang and Python, using React for interfaces and PostgreSQL for data management. CI/CD pipeline implementation with GitHub Actions, infrastructure automation with Terraform and Kubernetes, and asynchronous integration with Kafka, SQS and SNS. Mentorship and resolution of architectural and performance challenges."
