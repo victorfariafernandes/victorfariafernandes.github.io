@@ -9,13 +9,15 @@
 	];
 </script>
 
-<section class="mx-auto flex max-w-7xl items-center justify-between px-container py-section">
+<section
+	class="mx-auto flex max-w-7xl flex-col items-start gap-8 px-container py-section md:flex-row md:items-center md:justify-between"
+>
 	<div class="flex flex-col gap-2">
 		<p class="text-lg font-medium text-primary-500">{$t.pages.about.subtitle}</p>
-		<h1 class="text-7xl font-bold leading-tight text-primary-300">{$t.pages.about.name}</h1>
+		<h1 class="text-5xl font-bold leading-tight text-primary-300 sm:text-6xl md:text-7xl">{$t.pages.about.name}</h1>
 		<p class="text-xl font-medium text-primary-600">{$t.pages.about.role}</p>
 	</div>
-	<div class="flex flex-col gap-3">
+	<div class="flex flex-row gap-3 md:flex-col">
 		{#each socialLinks as link}
 			<SocialBadge platform={link.platform} href={link.href} ariaLabel={link.ariaLabel} />
 		{/each}
