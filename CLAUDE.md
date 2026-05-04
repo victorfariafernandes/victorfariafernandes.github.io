@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Victor Fernandes' professional portfolio site hosted at `victorffernandes.github.io` via GitHub Pages.
+Victor Fernandes' professional portfolio site hosted at `victorfariafernandes.github.io` via GitHub Pages.
 
 **Stack:** SvelteKit (static adapter) · Svelte 5 (runes mode) · Tailwind CSS v4 · flowbite-svelte · TypeScript
 
@@ -12,7 +12,7 @@ Victor Fernandes' professional portfolio site hosted at `victorffernandes.github
 
 ## Deployment
 
-The site deploys automatically to `https://victorffernandes.github.io` via GitHub Actions on every push to `main`.
+The site deploys automatically to `https://victorfariafernandes.github.io` via GitHub Actions on every push to `main`.
 
 **Workflow:** [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
 - Runs on Node 22, installs deps with `npm ci`, builds with `npm run build`
@@ -249,7 +249,7 @@ To switch locale programmatically, call `setLocale('pt')` from `$lib/stores/loca
 Blog and project content is hosted in **Prismic**, a headless CMS.
 
 **Key files:**
-- `prismic.config.json` — repo name `victorffernandes`, routes for `post` and `project` content types
+- `prismic.config.json` — repo name `victorfariafernandes`, routes for `post` and `project` content types
 - `prismicio-types.d.ts` (root) — generated type declarations; **do not edit manually**
 - `src/lib/prismicio.ts` — exports `createClient()` wrapper and `repositoryName` constant
 - `src/lib/slices/index.ts` — Prismic slice registry (generated; currently empty)
@@ -269,7 +269,7 @@ Use `localeToLang(locale)` to map locale BCP 47 tags (`'en'`, `'pt'`) to Prismic
 
 ### Config — `src/lib/config/`
 
-- `site.ts` — exports `SITE_URL = 'https://victorffernandes.github.io'`. Used by `SeoHead` to build canonical URLs.
+- `site.ts` — exports `SITE_URL = 'https://victorfariafernandes.github.io'`. Used by `SeoHead` to build canonical URLs.
 
 ### Assets — `src/lib/assets/`
 
