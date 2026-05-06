@@ -1,10 +1,10 @@
 {
   "seo": {
-    "siteName": "Victor Fernandes",
-    "defaultDescription": "Portfólio de engenharia de software de Victor Fernandes, com perfil profissional e artigos técnicos.",
-    "aboutDescription": "Conheça Victor Fernandes, desenvolvedor de software sênior com foco em engenharia full stack, infraestrutura em nuvem e sistemas escaláveis.",
-    "blogDescription": "Leia artigos técnicos e insights de engenharia escritos por Victor Fernandes.",
-    "errorDescription": "A página solicitada não foi encontrada no site de Victor Fernandes."
+    "siteName": "Victor Faria Fernandes",
+    "defaultDescription": "Portfólio de engenharia de software de Victor Faria Fernandes, com perfil profissional e artigos técnicos.",
+    "aboutDescription": "Conheça Victor Faria Fernandes, desenvolvedor de software sênior com foco em engenharia full stack, infraestrutura em nuvem e sistemas escaláveis.",
+    "blogDescription": "Leia artigos técnicos e insights de engenharia escritos por Victor Faria Fernandes.",
+    "errorDescription": "A página solicitada não foi encontrada no site de Victor Faria Fernandes."
   },
   "nav": {
     "about": "Sobre Mim",
@@ -16,7 +16,7 @@
   },
   "pages": {
     "about": {
-      "name": "Victor Fernandes",
+      "name": "Victor Faria Fernandes",
       "subtitle": "Olá, eu sou",
       "role": "Desenvolvedor de Software Sênior",
       "title": "Sobre Mim",

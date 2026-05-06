@@ -1,10 +1,10 @@
 {
   "seo": {
-    "siteName": "Victor Fernandes",
-    "defaultDescription": "Victor Fernandes' software engineering portfolio, profile, and blog posts.",
-    "aboutDescription": "Learn more about Victor Fernandes, a senior software developer focused on full-stack engineering, cloud infrastructure, and scalable systems.",
-    "blogDescription": "Read technical articles and engineering insights by Victor Fernandes.",
-    "errorDescription": "The requested page could not be found on Victor Fernandes' website."
+    "siteName": "Victor Faria Fernandes",
+    "defaultDescription": "Victor Faria Fernandes' software engineering portfolio, profile, and blog posts.",
+    "aboutDescription": "Learn more about Victor Faria Fernandes, a senior software developer focused on full-stack engineering, cloud infrastructure, and scalable systems.",
+    "blogDescription": "Read technical articles and engineering insights by Victor Faria Fernandes.",
+    "errorDescription": "The requested page could not be found on Victor Faria Fernandes' website."
   },
   "nav": {
     "about": "About Me",
@@ -16,7 +16,7 @@
   },
   "pages": {
     "about": {
-      "name": "Victor Fernandes",
+      "name": "Victor Faria Fernandes",
       "subtitle": "Hello, I'm",
       "role": "Senior Software Developer",
       "title": "About Me",
