@@ -20,7 +20,7 @@
       "subtitle": "Olá, eu sou",
       "role": "Desenvolvedor de Software Sênior",
       "title": "Sobre Mim",
-      "content": "Desenvolvimento de interfaces dinâmicas com React, gerenciamento de bancos de dados com PostgreSQL e otimização de APIs com Express.\n\nAutomação de pipelines CI/CD com Github Actions e uso de Docker, Kubernetes e Terraform para orquestração de containers e infraestrutura como código. Integração de sistemas com ferramentas de mensageria como Kafka, SQS e SNS, garantindo alta disponibilidade e performance. Atuação na resolução de bugs críticos e na melhoria contínua de segurança e desempenho. Mentoria de equipes, promovendo boas práticas e revisões de código. Colaboração com times multidisciplinares para definir estratégias de produto e arquitetura técnica."
+      "content": "Desenvolvo interfaces dinâmicas com React, gerencio bancos de dados com PostgreSQL e otimizo APIs com Express.\n\nAutomato pipelines CI/CD com Github Actions e utilizo Docker, Kubernetes e Terraform para orquestração de containers e infraestrutura como código. Integro sistemas com ferramentas de mensageria como Kafka, SQS e SNS, garantindo alta disponibilidade e performance. Resolvo bugs críticos e trabalho na melhoria contínua de segurança e desempenho. Faço mentoria de equipes, promovendo boas práticas e revisões de código. Colaboro com times multidisciplinares para definir estratégias de produto e arquitetura técnica."
     },
     "blog": { "title": "Blog" },
     "experience": {
@@ -31,28 +31,28 @@
           "date": "Out. 2025",
           "title": "Desenvolvedor Full Stack",
           "subtitle": "Enso Connect",
-          "content": "Atuando como engenheiro de software desenvolvendo novas funcionalidades do zero e mantendo sistemas em produção. Focado em experiência do usuário, eficiência e qualidade de código, utilizando React, Python e AWS para alcançar resultados confiáveis e eficientes. Utilizou tecnologias como DynamoDB, Cognito e Amplify para manter e escalar produtos de startup."
+          "content": "Desenvolvo novas funcionalidades do zero e mantenho sistemas em produção, com foco em experiência do usuário, eficiência e qualidade de código. Utilizo React, Python e AWS para entregar resultados confiáveis e eficientes, e uso tecnologias como DynamoDB, Cognito e Amplify para manter e escalar produtos de startup."
         },
         {
           "id": "senior-dev",
           "date": "Jan. 2022",
           "title": "Desenvolvedor Full Stack Sênior",
           "subtitle": "OLX Brasil",
-          "content": "Liderança técnica no desenvolvimento de sistemas distribuídos com Node.js, Golang e Python, utilizando React para interfaces e PostgreSQL para gestão de dados. Implementação de pipelines CI/CD com Github Actions, automação de infraestrutura com Terraform e Kubernetes, e integração assíncrona com Kafka, SQS e SNS. Mentoria e resolução de desafios arquiteturais e de performance."
+          "content": "Liderei o desenvolvimento de sistemas distribuídos com Node.js, Golang e Python, utilizando React para interfaces e PostgreSQL para gestão de dados. Implementei pipelines CI/CD com Github Actions, automatizei infraestrutura com Terraform e Kubernetes, e construí integrações assíncronas com Kafka, SQS e SNS. Fiz mentoria de engenheiros e resolvi desafios complexos de arquitetura e performance."
         },
         {
           "id": "mid-dev",
           "date": "Ago.2019",
           "title": "Desenvolvedor Full Stack Pleno",
           "subtitle": "Rede D'or São Luiz",
-          "content": "Responsável pelo desenvolvimento de sistemas com Node.js e front-end com Angular e React. Integração com MongoDB e Redis para soluções de armazenamento e cache, usando Docker e Express para otimização do ambiente. Contribuição em revisões de código e implementação de testes automatizados."
+          "content": "Desenvolvi sistemas backend com Node.js e aplicações front-end com Angular e React. Integrei MongoDB e Redis para soluções de armazenamento e cache, utilizando Docker e Express para otimização do ambiente. Contribuí ativamente em revisões de código e implementei testes automatizados."
         },
         {
           "id": "junior-dev",
           "date": "Nov.2017",
           "title": "Desenvolvedor Full Stack Junior",
           "subtitle": "OI S.A",
-          "content": "Desenvolvimento de aplicações com Node.js e React, integrando MongoDB e Redis para otimização de dados. Implementação de APIs utilizando Express e configuração de ambientes com Docker. Participação na resolução de bugs e suporte ao deploy contínuo."
+          "content": "Desenvolvi aplicações com Node.js e React, integrando MongoDB e Redis para otimização de dados. Implementei APIs com Express e configurei ambientes com Docker. Participei da resolução de bugs e apoiei fluxos de deploy contínuo."
         }
       ]
     },

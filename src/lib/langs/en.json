@@ -20,7 +20,7 @@
       "subtitle": "Hello, I'm",
       "role": "Senior Software Developer",
       "title": "About Me",
-      "content": "Dynamic interface development with React, database management with PostgreSQL, and API optimization with Express.\n\nCI/CD pipeline automation with GitHub Actions and Docker, Kubernetes, and Terraform for container orchestration and infrastructure as code. Systems integration with messaging tools like Kafka, SQS, and SNS, ensuring high availability and performance. Bug resolution, continuous security improvements, team mentorship, code reviews, and collaboration with multidisciplinary teams to define product and architecture strategies."
+      "content": "I build dynamic interfaces with React, manage databases with PostgreSQL, and optimize APIs with Express.\n\nI automate CI/CD pipelines with GitHub Actions and use Docker, Kubernetes, and Terraform for container orchestration and infrastructure as code. I integrate systems with messaging tools like Kafka, SQS, and SNS, ensuring high availability and performance. I resolve critical bugs, drive continuous security improvements, mentor teammates, lead code reviews, and collaborate with multidisciplinary teams to shape product and architecture strategies."
     },
     "blog": { "title": "Blog" },
     "experience": {
@@ -31,28 +31,28 @@
           "date": "Oct.2025",
           "title": "Full Stack Developer",
           "subtitle": "Enso Connect · Full-time",
-          "content": "Working as a software engineer developing new features from scratch and maintaining production systems. Focused on user experience, efficiency, and code quality, using React, Python, and AWS to achieve reliable and efficient results. Leveraged technologies like DynamoDB, Cognito, and Amplify to maintain and scale startup products."
+          "content": "I develop new features from scratch and maintain production systems, focusing on user experience, efficiency, and code quality. I use React, Python, and AWS to deliver reliable and efficient results, and leverage DynamoDB, Cognito, and Amplify to maintain and scale startup products."
         },
         {
           "id": "senior-dev",
           "date": "Jan. 2022",
           "title": "Senior Full Stack Developer",
           "subtitle": "OLX Brasil",
-          "content": "Technical leadership in distributed systems development with Node.js, Golang and Python, using React for interfaces and PostgreSQL for data management. CI/CD pipeline implementation with GitHub Actions, infrastructure automation with Terraform and Kubernetes, and asynchronous integration with Kafka, SQS and SNS. Mentorship and resolution of architectural and performance challenges."
+          "content": "I led distributed systems development with Node.js, Golang, and Python, using React for interfaces and PostgreSQL for data management. I implemented CI/CD pipelines with GitHub Actions, automated infrastructure with Terraform and Kubernetes, and built asynchronous integrations with Kafka, SQS, and SNS. I mentored engineers and tackled complex architectural and performance challenges."
         },
         {
           "id": "mid-dev",
           "date": "Aug. 2019",
           "title": "Mid-Level Full Stack Developer",
           "subtitle": "Rede D'or São Luiz",
-          "content": "Responsible for developing systems with Node.js and front-end with Angular and React. MongoDB and Redis integration for storage and caching solutions, using Docker and Express to optimize the environment. Contribution to code reviews and implementation of automated tests."
+          "content": "I developed backend systems with Node.js and front-end applications with Angular and React. I integrated MongoDB and Redis for storage and caching solutions, and used Docker and Express to optimize the environment. I actively contributed to code reviews and implemented automated tests."
         },
         {
           "id": "junior-dev",
           "date": "Nov. 2017",
           "title": "Junior Full Stack Developer",
           "subtitle": "OI S.A",
-          "content": "Development of applications with Node.js and React, integrating MongoDB and Redis for data optimization. API implementation using Express and environment configuration with Docker. Participation in bug resolution and support for continuous deployment."
+          "content": "I built applications with Node.js and React, integrating MongoDB and Redis for data optimization. I implemented APIs with Express and configured environments with Docker. I participated in bug resolution and supported continuous deployment workflows."
         }
       ]
     },
